@@ -1,21 +1,21 @@
 # DSIOT-Praktikum-BFH
 
-## Table of contents
+## Inhaltsverzeichnis
 * [General info](#general-info)
 * [Installation Tailscale and starting as a service](#installation-tailscale-and-starting-as-a-service)
 * [Installing the mosquitto broker and starting as a service](#installing-the-mosquitto-broker-and-starting-as-a-service)
 
-## General info
+## Ziel des heutigen Praktikums
 This project is simple Lorem ipsum dolor generator.
 
 
-## Installation Tailscale and starting as a service
+## Installation Tailscale
 ```
 curl -fsSL https://tailscale.com/install.sh | sh
 sudo tailscale up
 ```
 
-## Installing the mosquitto broker and starting as a service
+## Installation von dem Mosquitto Broker
 ```
 sudo apt update
 sudo apt upgrade
@@ -31,10 +31,10 @@ mosquitto_sub -t test
 mosquitto_pub -t test -m "Hallo Welt"
 ```
 
-## Installing the Node-Red and starting as a service
+## Installation von Node-Red
 
-## Installing InfluxDB and starting as a service
+## Installation von InfluxDB
 
-## Installing Grafana and starting as a service
+## Installation von Grafana
 
 
