@@ -8,6 +8,7 @@
 ## Ziel des heutigen Praktikums
 This project is simple Lorem ipsum dolor generator.
 
+## OS Image auf SD-Karte flashen
 
 ## Installation Tailscale
 ```
