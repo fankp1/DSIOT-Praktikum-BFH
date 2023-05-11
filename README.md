@@ -2,12 +2,11 @@
 
 
 
-## Setup
+# Setup
 
-# Installation Tailscale and starting as a service
+## Installation Tailscale and starting as a service
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+curl -fsSL https://tailscale.com/install.sh | sh
+sudo tailscale up
 ```
 Installation
