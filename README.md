@@ -16,6 +16,20 @@ sudo tailscale up
 ```
 
 ## Installing the mosquitto broker and starting as a service
+```
+sudo apt update
+sudo apt upgrade
+sudo apt install mosquitto 
+sudo apt install mosquitto-clients
+sudo systemctl enable mosquitto
+sudo systemctl start mosquitto
+```
+Status von Mosquitto überprüfen:
+```
+sudo systemctl status mosquitto
+mosquitto_sub -t test
+mosquitto_pub -t test -m "Hallo Welt"
+```
 
 ## Installing the Node-Red and starting as a service
 
