@@ -1,9 +1,9 @@
 # DSIOT-Praktikum-BFH
 
 ## Inhaltsverzeichnis
-* [General info](#general-info)
+* [Ziel des heutigen Praktikums](#Ziel-des-heutigen-Praktikums)
 * [Installation Tailscale and starting as a service](#installation-tailscale-and-starting-as-a-service)
-* [Installing the mosquitto broker and starting as a service](#installing-the-mosquitto-broker-and-starting-as-a-service)
+* [Installation von MongoDB](#Installation-von-MongoDB)
 
 ## Ziel des heutigen Praktikums
 In diesem Praktikum werden wir verschiedene Software-Komponenten auf einem Raspberry Pi installieren um eine Mini-Cloud aufzusetzten. Die Mini-Cloud beinhaltet einen lokalen MQTT-Broker, ein dokumentenorientiertes NoSQL-Datenbankmanagementsystem, eine Zeitreihendatenbank, ein grafisches Entwicklungswerkzeug sowie ein Visualsierungstool. Damit wir von überall auf der Welt auf unsere Mini-Cloud zugreifen können, verbinden wir das Raspberry Pi über Tailscale
@@ -46,5 +46,7 @@ mosquitto_pub -t test -m "Hallo Welt"
 ## Installation von InfluxDB
 
 ## Installation von Grafana
+
+## Installation von MongoDB
 
 
