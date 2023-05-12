@@ -40,9 +40,9 @@ Mac OS X Terminal:
 * Terminal in das Textfeld eingeben
 
 SSH-Verbindung herstellen:
-'''
+```
 ssh username@server
-'''
+```
 
 Anschliessend muss noch das Passwort von dem User eingegeben werden insofern ein Passwort gesetzt wurde.
 
