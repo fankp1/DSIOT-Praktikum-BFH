@@ -61,6 +61,8 @@ sudo tailscale up
 
 ## Installation von dem Mosquitto Broker
 ```
+wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+sudo apt-key add mosquitto-repo.gpg.key
 sudo apt update
 sudo apt upgrade
 sudo apt install mosquitto 
