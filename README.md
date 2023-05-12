@@ -131,4 +131,14 @@ MongoDB installieren:
 ```
 sudo apt-get install -y mongodb-org
 ```
+MongoDB starten:
+```
+sudo systemctl start mongod
+sudo systemctl enable monogod
+```
+Installation überprüfen:
+```
+mongo --version
+
+```
 
