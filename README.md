@@ -5,6 +5,7 @@
 * [OS Image auf SD-Karte flashen](#OS-Image-auf-SD-Karte-flashen)
 * [Installation Tailscale](#Installation-Tailscale)
 * [Installation von dem Mosquitto Broker](#Installation-von-dem-Mosquitto-Broker)
+* 
 * [Installation von Node-Red](#Installation-von-Node-Red)
 * [Installation von InfluxDB](#Installation-von-InfluxDB)
 * [Installation von Grafana](#Installation-von-Grafana)
@@ -29,12 +30,27 @@ Die WLAN Zugangsdaten werden am Tag des Praktikum vor Ort verteilt.
 ## Verbindung mit dem Raspberry Pi über SSH
 Um sich mit dem Raspberry Pi zu verbinden, gibt es verschiedene Möglichkeiten. Nachfolgend werden zwei Varianten aufgezeigt:
 
-### Verbindung über Terminal (PowerShell oder MAC OS X Terminal):
+### Verbindung über Terminal (PowerShell oder Mac OS X Terminal):
+Windows PowerShell:
+* Durch das Klicken auf das Windows Logo bzw. Start Symbol, kann eine Eingabe getätigt werden.
+* Eingabe von "PowerShell" um PowerShell zu öffnen
 
-### Verbindung über Terminus:
+Mac OS X Terminal:
+* Mittels "Command" + Leertaste die Spotlight Suche öffnen
+* Terminal in das Textfeld eingeben
 
+SSH-Verbindung herstellen:
+ssh username@server
 
+Anschliessend muss noch das Passwort von dem User eingegeben werden insofern ein Passwort gesetzt wurde.
 
+### Verbindung über Termius:
+* Terminus herunterlad und installieren
+* Mac OS X: https://termius.com/free-ssh-client-for-mac-os
+* Windows: https://termius.com/free-ssh-client-for-windows
+* Linux: https://termius.com/free-ssh-client-for-linux
+
+Anschliessend muss ein neuer Host hinzufügt werden. Dabei müssen die IP-Adresse, der Username, das Passwort sowie der Port (Standard: 22) angegeben werden.
 ## Installation Tailscale
 ```
 curl -fsSL https://tailscale.com/install.sh | sh
