@@ -69,6 +69,14 @@ sudo apt install mosquitto
 sudo apt install mosquitto-clients
 sudo systemctl enable mosquitto
 sudo systemctl start mosquitto
+sudo nano /etc/mosquitto/conf.d/local.conf
+```
+Insert two lines into the file:
+```
+listener 1883
+allow_anonymous true
+
+sudo systemctl restart mosquitto
 ```
 Status von Mosquitto überprüfen:
 ```
