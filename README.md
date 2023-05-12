@@ -9,10 +9,15 @@
 In diesem Praktikum werden wir verschiedene Software-Komponenten auf einem Raspberry Pi installieren um eine Mini-Cloud aufzusetzten. Die Mini-Cloud beinhaltet einen lokalen MQTT-Broker, ein dokumentenorientiertes NoSQL-Datenbankmanagementsystem, eine Zeitreihendatenbank, ein grafisches Entwicklungswerkzeug sowie ein Visualsierungstool. Damit wir von überall auf der Welt auf unsere Mini-Cloud zugreifen können, verbinden wir das Raspberry Pi über Tailscale
 
 ## OS Image auf SD-Karte flashen
+Damit das Raspberry Pi verwendet werden kann, wird ein Betriebssystem benötigt. Wir werden ein Linuz verwenden, welches extra für das Raspberry Pi entwickelt wurde.
 * Rasbperry Pi Imager für gewünschtes Betriebssystem installieren (https://www.raspberrypi.com/software/)
-* Ipsum version: 2.33
-* Ament library version: 999
+* Gewünschtes OS auswählen (Vorschlag: Raspberry Pi OS 64bit)
+* SD-Karte in den Laptop einstecken bzw. verbinden
+* SD-Karte auswählen
+* Über das Zahnrad kann dem Raspberry Pi bereits die WLAN Zugangsdaten mitgeteilt werden und SSH aktiviert werden
+* Image auf SD-Karte schreiben
 
+Nun kann die SD-Karte entfernt werden und mit dem Raspberry Pi verbunden werden. Sobald das Raspberry Pi mit Strom und dem Internet verbunden ist, können wir mit der Installation der Software-Pakete beginnen.
 
 ## Installation Tailscale
 ```
