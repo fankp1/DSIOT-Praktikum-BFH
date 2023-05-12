@@ -131,7 +131,8 @@ sudo apt-get update
 ```
 MongoDB installieren:
 ```
-sudo apt-get install -y mongodb-org
+sudo apt-get install mongodb-org-mongos=4.4.18 mongodb-org-tools=4.4.18 mongodb-org-shell=4.4.18 mongodb-org-database-tools-extra=4.4.18 mongodb-org=4.4.18 mongodb-org-server=4.4.18
+sudo apt-mark hold mongodb-org-mongos mongodb-org-tools mongodb-org-shell mongodb-org-database-tools-extra mongodb-org mongodb-org-server
 ```
 MongoDB starten:
 ```
