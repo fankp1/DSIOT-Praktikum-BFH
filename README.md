@@ -2,7 +2,7 @@
 
 ## Inhaltsverzeichnis
 * [Ziel des heutigen Praktikums](#Ziel-des-heutigen-Praktikums)
-* [OS Image auf SD-Karte flashen](#OS Image auf SD-Karte flashen)
+* [OS Image auf SD-Karte flashen](#OS-Image-auf-SD-Karte-flashen)
 * [Installation Tailscale](#Installation-Tailscale)
 * [Installation von dem Mosquitto Broker](#Installation-von-dem-Mosquitto-Broker)
 * [Installation von Node-Red](#Installation-von-Node-Red)
@@ -52,10 +52,29 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 sudo systemctl enable nodered.service
 sudo systemctl start nodered.service
 ```
+Status von Node-Red überprüfen:
+```
+sudo systemctl status nodered.service
+```
 ## Installation von InfluxDB
 
 ## Installation von Grafana
 
 ## Installation von MongoDB
-
+Secure Key für die MongoDB herunterladen:
+```
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+```
+Sicheren Speicherort für die Packages angeben:
+```
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+```
+Informationen für die Installation der MongoDB holen:
+```
+sudo apt-get update
+```
+MongoDB installieren:
+```
+sudo apt-get install -y mongodb-org
+```
 
