@@ -67,7 +67,22 @@ Status von Node-Red überprüfen:
 ```
 sudo systemctl status nodered.service
 ```
+
 ## Installation von InfluxDB
+```
+sudo apt update && sudo apt upgrade -y
+curl https://repos.influxdata.com/influxdb.key | gpg --dearmor | sudo tee /usr/share/keyrings/influxdb-archive-keyring.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/influxdb-archive-keyring.gpg] https://repos.influxdata.com/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+sudo apt update
+sudo apt install influxdb
+sudo systemctl unmask influxdb
+sudo systemctl enable influxdb
+sudo systemctl start influxdb
+```
+Status von InfluxDB überprüfen:
+```
+sudo systemctl status influxdb
+```
 
 ## Installation von Grafana
 
