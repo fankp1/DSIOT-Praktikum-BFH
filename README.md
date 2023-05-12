@@ -6,9 +6,13 @@
 * [Installing the mosquitto broker and starting as a service](#installing-the-mosquitto-broker-and-starting-as-a-service)
 
 ## Ziel des heutigen Praktikums
-This project is simple Lorem ipsum dolor generator.
+In diesem Praktikum werden wir verschiedene Software-Komponenten auf einem Raspberry Pi installieren um eine Mini-Cloud aufzusetzten. Die Mini-Cloud beinhaltet einen lokalen MQTT-Broker, ein dokumentenorientiertes NoSQL-Datenbankmanagementsystem, eine Zeitreihendatenbank, ein grafisches Entwicklungswerkzeug sowie ein Visualsierungstool. Damit wir von überall auf der Welt auf unsere Mini-Cloud zugreifen können, verbinden wir das Raspberry Pi über Tailscale
 
 ## OS Image auf SD-Karte flashen
+* Rasbperry Pi Imager für gewünschtes Betriebssystem installieren (https://www.raspberrypi.com/software/)
+* Ipsum version: 2.33
+* Ament library version: 999
+
 
 ## Installation Tailscale
 ```
