@@ -6,12 +6,8 @@
 * [Installation Tailscale](#Installation-Tailscale)
 * [Installation von dem Mosquitto Broker](#Installation-von-dem-Mosquitto-Broker)
 * [Installation von Node-Red](#Installation-von-Node-Red)
-* [OS Image auf SD-Karte flashen](#OS Image auf SD-Karte flashen)
-* 
-* 
-* 
-* ## Installation von InfluxDB
-Installation von Grafana
+* [Installation von InfluxDB](#Installation-von-InfluxDB)
+* [Installation von Grafana](#Installation-von-Grafana)
 * [Installation von MongoDB](#Installation-von-MongoDB)
 
 ## Ziel des heutigen Praktikums
@@ -51,7 +47,11 @@ mosquitto_pub -t test -m "Hallo Welt"
 ```
 
 ## Installation von Node-Red
-
+```
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+sudo systemctl enable nodered.service
+sudo systemctl start nodered.service
+```
 ## Installation von InfluxDB
 
 ## Installation von Grafana
