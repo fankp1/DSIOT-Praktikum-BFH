@@ -24,6 +24,17 @@ Damit das Raspberry Pi verwendet werden kann, wird ein Betriebssystem benötigt.
 
 Nun kann die SD-Karte entfernt werden und mit dem Raspberry Pi verbunden werden. Sobald das Raspberry Pi mit Strom und dem Internet verbunden ist, können wir mit der Installation der Software-Pakete beginnen.
 
+Die WLAN Zugangsdaten werden am Tag des Praktikum vor Ort verteilt.
+
+## Verbindung mit dem Raspberry Pi über SSH
+Um sich mit dem Raspberry Pi zu verbinden, gibt es verschiedene Möglichkeiten. Nachfolgend werden zwei Varianten aufgezeigt:
+
+### Verbindung über Terminal (PowerShell oder MAC OS X Terminal):
+
+### Verbindung über Terminus:
+
+
+
 ## Installation Tailscale
 ```
 curl -fsSL https://tailscale.com/install.sh | sh
