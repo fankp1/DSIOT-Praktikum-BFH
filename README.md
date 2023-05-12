@@ -2,7 +2,16 @@
 
 ## Inhaltsverzeichnis
 * [Ziel des heutigen Praktikums](#Ziel-des-heutigen-Praktikums)
-* [Installation Tailscale and starting as a service](#installation-tailscale-and-starting-as-a-service)
+* [OS Image auf SD-Karte flashen](#OS Image auf SD-Karte flashen)
+* [Installation Tailscale](#Installation-Tailscale)
+* [Installation von dem Mosquitto Broker](#Installation-von-dem-Mosquitto-Broker)
+* [Installation von Node-Red](#Installation-von-Node-Red)
+* [OS Image auf SD-Karte flashen](#OS Image auf SD-Karte flashen)
+* 
+* 
+* 
+* ## Installation von InfluxDB
+Installation von Grafana
 * [Installation von MongoDB](#Installation-von-MongoDB)
 
 ## Ziel des heutigen Praktikums
